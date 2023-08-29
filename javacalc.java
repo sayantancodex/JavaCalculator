@@ -50,7 +50,6 @@ class javacalc {
       default:
         System.out.println("Invalid operator!");
     }
-
-    
   }
 }
+
