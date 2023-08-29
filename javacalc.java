@@ -26,6 +26,7 @@ class javacalc {
       case '+':
         result = number1 + number2;
         System.out.println(number1 + " + " + number2 + " = " + result);
+        break ; 
         
 
       // performs subtraction between numbers
@@ -35,7 +36,7 @@ class javacalc {
         break;
 
       // performs multiplication between numbers
-      case '*'
+      case '*':
         result = number1 * number2;
         System.out.println(number1 + " * " + number2 + " = " + result);
         break;
@@ -48,7 +49,6 @@ class javacalc {
 
       default:
         System.out.println("Invalid operator!");
-        break;
     }
 
     
