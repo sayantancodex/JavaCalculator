@@ -49,6 +49,7 @@ class javacalc {
       default:
         System.out.println("Invalid operator!");
         break;
+        scanner.close();
     }
 
     
